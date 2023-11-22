@@ -65,7 +65,7 @@ export default function Navbar() {
             <li tabIndex={0}>
               <details>
                 <summary>Mes Projets</summary>
-                <ul className="p-2">
+                <ul className="p-2 z-10">
                   <li>
                     <Link href="/">Web</Link>
                   </li>
