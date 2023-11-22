@@ -26,12 +26,24 @@ body {
   height: 100dvh;
 }
 
+.animate-bounce {
+  animation: bounce 8s infinite;
+}
+
 @layer components {
   /* BUTTON */
   .btn_primary {
-    @apply inline-block px-4 py-2 rounded-lg shadow-lg;
+    @apply inline-block px-4 py-2 rounded-lg shadow-lg bg-blue-600;
   }
 
+  .btn_primary:hover {
+    @apply bg-blue-700 cursor-pointer;
+  }
+
+  /*CONTAINER HEADER IMAGE */
+  .container_image {
+    @apply flex flex-col items-center justify-center w-96 h-96;
+  }
   /* HEADER TITLE*/
   .header_title {
     @apply text-3xl font-bold;
@@ -39,6 +51,6 @@ body {
 
   /* HEADER SUBTITLE*/
   .header_subtitle {
-    @apply text-xl text-right my-5;
+    @apply text-lg text-right my-5;
   }
 }

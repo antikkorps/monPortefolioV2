@@ -9,7 +9,7 @@ export default function Home() {
           Je suis Franck Vienot et je vous accompagne dans vos développements web et votre
           transformation digitale
         </p>
-        <button className="btn_primary">Cliquez ici</button>
+        <button className="btn_primary">Contactez-moi</button>
       </main>
     </>
   )
